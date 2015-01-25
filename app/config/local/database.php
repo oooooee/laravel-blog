@@ -22,10 +22,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'laravel-blog',
-			'username'  => 'homestead',
-			'password'  => 'secret',
+			'host'      => $_ENV['HOST'],
+			'database'  => $_ENV['DB'],
+			'username'  => $_ENV['DB_USER'],
+			'password'  => $_ENV['DB_PWD'],
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
