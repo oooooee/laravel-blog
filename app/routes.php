@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('test', ['as' => 'home', 'uses' => 'PostsController@index']);
 Route::get('/', ['as' => 'home', 'uses' => 'PostsController@index']);
 Route::get('about', ['as' => 'about', 'uses' => 'PostsController@index']);
 
